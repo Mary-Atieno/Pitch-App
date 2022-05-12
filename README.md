@@ -9,13 +9,21 @@ mary atieno
 ## Table of Content
 
 [Description](#Description)
+
 [Requirements](#Requirements)
+
 [Installation](#Installation)
+
 [RunningProject](#RunningProject)
+
 [RunningTests](#RunningTest)
+
 [BDD](#BehaviourDrivenDevelopment)
+
 [TechnologiesUsed](#TechnologiesUsed)
+
 [Licence](#Licence)
+
 [Authors Info](#AuthorsInfo)
 
 ## Description
