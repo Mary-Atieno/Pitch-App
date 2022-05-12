@@ -1,0 +1,35 @@
+{% extends 'bootstrap/base.html'%}
+{% block styles %} {{ super() }}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap4/css/bootstrap.min.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">{% endblock %}
+
+{% block navbar%}
+{% include 'navbar.html'%}
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Pitch-App</title>
+    
+</head>
+    
+<body>
+
+
+{% block content%}
+
+{% endblock %}
+
+{% block pitch %}
+
+
+{% endblock %}
+
+
+</html>
